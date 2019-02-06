@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Site - Cadastro</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul class="menu">
+                <a href="index.html"><li>Cadastro</li></a>
+                <a href="login.php"><li>Login</li></a>
+            </ul>
+        </nav>
+        <section>
+            <h1>Cadastro de Perfis</h1>
+            <hr><br><br>
+
+            <form method="post" action="page1.php">
+                <input type="submit" value="Salvar" class="btn">
+                <input type="reset" value="Limpar" class="btn">
+                <br><br>
+
+                Nome<br>
+                <input type="text" name="nome" class="campo" maxlength="40" required autofocus placeholder="Digite seu nome completo..."><br>
+                Email<br>
+                <input type="email" name="email" class="campo" maxlength="45" required placeholder="EX: SeuEmail@email.com"><br>
+                Profissão<br>
+                <input type="text" name="profissao" class="campo" maxlength="30" required placeholder="EX: Pedreiro, Executivo"><br>
+                Senha<br>
+                <input type="password" name="senha" class="campo" maxlength="20" required><br>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
